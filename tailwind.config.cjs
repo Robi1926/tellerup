@@ -23,6 +23,10 @@ module.exports = {
       small: "0.8rem",
       tiny: "0.64rem",
     },
+    fontFamily: {
+      heading: ['"Oswald"', "sans-serif"],
+      body: ['"Roboto"', "sans-serif"],
+    },
     extend: {},
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],

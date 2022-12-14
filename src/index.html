@@ -11,16 +11,16 @@
       <nav>
         <ul>
           <li class="flex justify-between pl-20 pr-20">
-            <a class="text-4xl font-bold" href="">TELLERUP</a>
+            <a class="text-h3 font-bold" href="">TELLERUP</a>
             <button
-              class="border-orange-300 text-gray-400 rounded-full border-2 bg-white pl-4 pr-60 pt-2 pb-2"
+              class="rounded-full border-2 border-orange-brand bg-white pl-4 pr-60 pt-2 pb-2 text-grey-dark"
             >
               Søg
             </button>
             <div class="flex gap-10">
-              <a href="bog1.html">BØGER</a>
-              <a href="">PROFIL</a>
-              <a href="">KURV</a>
+              <a href="bog1.html"><img src="" alt="" />bøger</a>
+              <a href="">PROFIL <img src="img/profil.svg" alt="" /></a>
+              <a href="">KURV <img src="img/kurv.svg" alt="" /></a>
             </div>
           </li>
         </ul>
@@ -28,12 +28,16 @@
     </header>
 
     <main>
-      <section class="bg-orange-brand lg:grid lg:grid-cols-2 lg:p-20">
-        <div class="lg:mt-32 lg:ml-20">
-          <h1 class="text-h2 font-bold text-white">
+      <section
+        class="flex flex-col-reverse bg-orange-brand lg:grid lg:grid-cols-2"
+      >
+        <div class="lg:mt-32 lg:ml-32">
+          <h1 class="font-bold text-white lg:text-h2">
             Årets børnebog er nu på lager!
           </h1>
-          <h1 class="text-h2 font-bold text-white">Køb den idag og spar 20%</h1>
+          <h1 class="font-bold text-white lg:text-h2">
+            Køb den idag og spar 20%
+          </h1>
 
           <button
             class="rounded-full bg-black p-3 pl-10 pr-10 text-white lg:mt-10"
@@ -41,138 +45,15 @@
             Udforsk
           </button>
         </div>
-        <div class="lg:pl-40">
+        <div class="scale-75 lg:pl-40">
           <img class="drop-shadow-2xl" src="img/bog.png" alt="" />
         </div>
       </section>
 
-      <section>
-        <h3>Bestsellers</h3>
+      <section class="bg-grey-light p-20">
+        <h3 class="text-h3 font-bold">Bestsellers</h3>
       </section>
     </main>
-
-    <div id="about" class="h-screen w-full py-20 px-[10%]">
-      <div class="">
-        <div class="reveal flex flex-wrap justify-between">
-          <div class="md:md-0 mb-8 basis-[100%] md:basis-[35%]">
-            <img class="w-full rounded" src="img/asger-sit-black.png" alt="" />
-          </div>
-          <div class="md:elementinviewright basis-[100%] md:basis-[60%]">
-            <h2 class="text-3xl md:text-5xl font-semibold">Om mig</h2>
-            <p class="text-sm md:text-base md:mt-5">
-              Jeg er 24 år gammel og bor i en lejlighed på Amager med min
-              kæreste. Vi har været sammen i over syv år og boet sammen i tre. I
-              min fritid fordriver jeg tiden med at spille computerspil eller er
-              sammen med mine venner og familie. Ved siden af skole, der
-              arbejder jeg som vikar på et bosted for fysisk og psykisk
-              udfordret unge, som skal forberedes til at flytte i egen
-              lejlighed. Jeg studerer Multimedie Design på Københavns
-              Erhvervsakademi på Nørrebro. Under uddannelsesforløbet har emner
-              såsom webdesign, UI/UX, SEO & performance, accessibility, og
-              sustainability haft størst interesse. Nu er tiden så kommet, hvor
-              at jeg skal finde mig en praktikplads. Måske i kunne tænke jer, at
-              give mig muligheden?
-            </p>
-            <div class="wrapper">
-              <div class="buttonWrapper mt-5 mb-10 flex">
-                <button
-                  class="tab-button active text-lg md:text-2xl relative mr-5 font-semibold md:mr-14"
-                  data-id="skills"
-                >
-                  Færdigheder
-                </button>
-                <button
-                  class="tab-button text-lg md:text-2xl relative mr-5 font-semibold md:mr-14"
-                  data-id="experience"
-                >
-                  Erfaring
-                </button>
-                <button
-                  class="tab-button text-lg md:text-2xl relative mr-5 font-semibold md:mr-14"
-                  data-id="education"
-                >
-                  Uddannelse
-                </button>
-              </div>
-
-              <div class="">
-                <ul class="content active" id="skills">
-                  <li class="text-sm md:text-base my-3">
-                    <span
-                      class="text-base text-ppw-green md:text-xl font-semibold"
-                      >UI/UX</span
-                    ><br />Figma, Adobe XD, Designsystemer
-                  </li>
-                  <li class="text-sm md:text-base my-3">
-                    <span
-                      class="text-base text-ppw-green md:text-xl font-semibold"
-                      >Webudvikling</span
-                    ><br />HTML, CSS, JavaScript, Git, GitHub<br /><span
-                      class="font-semibold"
-                      >Frameworks: </span
-                    >Tailwind, DaisyUI, MotionOne, Alpine.js<br /><span
-                      class="font-semibold"
-                      >CMS: </span
-                    >WordPress<br /><span class="font-semibold">Keywords: </span
-                    >Responsiveness, Sustainability, Accessibility, Simplicity
-                    (less is more)
-                  </li>
-                  <li class="text-sm md:text-base my-3">
-                    <span
-                      class="text-base text-ppw-green md:text-xl font-semibold"
-                      >Grafisk design</span
-                    ><br />Adobe Illustrator, Adobe Photoshop
-                  </li>
-                  <li class="text-sm md:text-base my-3">
-                    <span
-                      class="text-base text-ppw-green md:text-xl font-semibold"
-                      >SEO & Performance</span
-                    ><br />Screaming Frog, Lighthouse, Google Analytics, schema
-                    markup, sitemaps, A11y
-                  </li>
-                </ul>
-                <ul class="content" id="experience">
-                  <li class="">
-                    <p class="">
-                      Hov, der er vist ikke noget at vise her endnu... 🤨😰🫢
-                    </p>
-                  </li>
-                  <!-- <li class="my-3 text-sm md:text-base">
-                    <span class="text-base md:text-xl font-semibold text-ppw-green"
-                      >Project</span
-                    ><br />Not much to show here yet...
-                  </li>
-                  <li class="my-3 text-sm md:text-base">
-                    <span class="text-base md:text-xl font-semibold text-ppw-green"
-                      >Project</span
-                    ><br />Designing web interfaces
-                  </li>
-                  <li class="my-3 text-sm md:text-base">
-                    <span class="text-base md:text-xl font-semibold text-ppw-green"
-                      >Project</span
-                    ><br />Designing web interfaces
-                  </li> -->
-                </ul>
-                <ul class="content" id="education">
-                  <li class="text-sm md:text-base my-3">
-                    <span
-                      class="text-base text-ppw-green md:text-xl font-semibold"
-                      >Københavns Erhvervsakademi</span
-                    ><br />2021 - 2023
-                  </li>
-                  <li class="text-sm md:text-base my-3">
-                    <span
-                      class="text-base text-ppw-green md:text-xl font-semibold"
-                      >Tårnby Gymnasium</span
-                    ><br />2014 - 2017
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <script type="module" src="./main.js"></script>
   </body>

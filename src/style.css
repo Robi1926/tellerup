@@ -27,3 +27,9 @@ html {
 .tab-button.active::after {
   width: 100%;
 }
+
+#splash {
+  background-image: url(img/splash.png);
+  background-size: cover;
+  height: 60vh;
+}

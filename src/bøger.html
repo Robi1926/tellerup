@@ -10,20 +10,18 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <title>Vite App</title>
+    <title>TELLERUP</title>
   </head>
   <body class="bg-white font-body text-black">
     <!-- Header -->
-    <section
-      class="h-[1.875rem] w-screen  bg-orange-brand text-white grid"
-    >
+    <section class="grid h-[1.875rem] w-screen bg-orange-brand text-white">
       <div class="mx-[4.375rem] flex justify-between gap-3">
         <article class="w-52"></article>
-        <article class="flex items-center gap-3 w-52">
+        <article class="flex w-52 items-center gap-3">
           <img src="img/stjerner-header.svg" alt="" class="" />
           <p class="">Trustpilot</p>
         </article>
-        <article class="flex items-center gap-3 w-52">
+        <article class="flex w-52 items-center gap-3">
           <img src="img/levering-header.svg" alt="" class="" />
           <p class="">Levering: 1-2 hverdage</p>
         </article>
@@ -32,7 +30,7 @@
     <header class="grid h-20 w-screen font-medium">
       <nav class="mx-[4.375rem] flex items-center justify-between">
         <section class="mr-[8.125rem] flex basis-1/4 items-center gap-3">
-          <h1 class="font-heading text-h2">TELLERUP</h1>
+          <a href="index.html" class="font-heading text-h2">TELLERUP</a>
           <p class="text-small text-grey-dark">
             Børne- og ungdomsbøger<br />Siden 1972
           </p>
@@ -60,20 +58,22 @@
       <!-- aside navbar -->
       <section class="flex gap-[8.125rem]">
         <aside
-          class="sticky top-36 flex h-fit w-[19.375rem] basis-1/4 flex-col gap-10 rounded-[10px] bg-grey-light px-5 py-10"
+          class="sticky top-[8.375rem] flex h-fit w-[19.375rem] basis-1/4 flex-col gap-10 rounded-[10px] bg-grey-light px-5 py-5"
         >
           <button class="flex gap-3 text-left">
-            <img src="img/nyheder.svg" alt="" class="" />
-            <p class="">Nyheder</p>
+            <img src="img/nyheder-orange.svg" alt="" class="" />
+            <p class="font-medium">Nyheder</p>
           </button>
           <section class="">
-            <button class="flex gap-3 text-left">
-              <img src="img/trin.svg" alt="" class="" />
-              <p class="">Klassetrin</p>
-              <div class=""></div>
+            <button class="flex w-full justify-between">
+              <div class="flex gap-3 text-left">
+                <img src="img/trin-orange.svg" alt="" class="" />
+                <p class="font-medium">Klassetrin</p>
+              </div>
+              <img src="img/collapse-ned.svg" alt="" class="" />
             </button>
-            <ol class="ml-14 mt-3 text-grey-dark">
-              <li class="mb-1 flex justify-between">
+            <ol class="ml-14 mt-3 hidden text-grey-dark">
+              <li class="mb-1.5 flex justify-between">
                 <p class="">10. klasse</p>
                 <img src="img/cirkel-tom.svg" alt="" class="" />
               </li>
@@ -119,20 +119,37 @@
               </li>
             </ol>
           </section>
+
+          <section class="">
+            <button class="flex w-full justify-between">
+              <div class="flex gap-3 text-left">
+                <img src="img/kategori-orange.svg" alt="" class="" />
+                <p class="font-medium">Kategorier</p>
+              </div>
+              <img src="img/collapse-op.svg" alt="" class="" />
+            </button>
+            <ul class="ml-14 mt-3 text-grey-dark">
+              <li class="mb-1.5"><a href="">YA realisme</a></li>
+              <li class="mb-1.5"><a href="">Fantasy</a></li>
+              <li class="mb-1.5"><a href="">Nordisk mytologi</a></li>
+              <li class=""><a href="">Kærlighed</a></li>
+            </ul>
+          </section>
+
           <button class="flex gap-3 text-left">
-            <img src="img/kategori.svg" alt="" class="" />
-            <p class="">Kategorier</p>
-          </button>
-          <button class="flex gap-3 text-left">
-            <img src="img/blyant.svg" alt="" class="" />
-            <p class="">Undervisningsmaterialer</p>
+            <img src="img/blyant-orange.svg" alt="" class="" />
+            <p class="font-medium">Undervisningsmaterialer</p>
           </button>
         </aside>
 
         <!-- Cards -->
-        <section class="basis-3/4">
+        <section class="mt-6 basis-3/4">
           <h1 class="font-heading text-h1 text-black">Bøger</h1>
-          <p class="text-body text-grey-dark">Tellerup / Bøger</p>
+          <section class="flex text-body text-grey-dark">
+            <a href="index.html" class="hover:text-black">Tellerup</a>
+            <p>&nbsp/&nbsp</p>
+            <a href="bøger.html" class="hover:text-black">Bøger</a>
+          </section>
           <section class="mt-10 flex flex-wrap justify-between gap-y-16">
             <article
               class="relative h-[18.75rem] w-[12.5rem] rounded-[10px] bg-orange-light text-center text-body font-bold"
@@ -147,11 +164,11 @@
                 alt=""
                 class="mx-auto w-[7.5rem] pb-[5px] pt-5"
               />
-              <p class="">Titel</p>
+              <p class="">Forskeren</p>
               <p class="pb-1 text-small font-semibold text-grey-dark">
-                Forfatter
+                J.R Ward
               </p>
-              <p class="text-green">00,00 DKK</p>
+              <p class="text-green">199,95 DKK</p>
               <div class="absolute -bottom-4 left-12 flex gap-1">
                 <img src="img/bog-tag.svg" alt="" />
                 <img src="img/lydbog-tag.svg" alt="" />
@@ -171,11 +188,11 @@
                 alt=""
                 class="mx-auto w-[7.5rem] pb-[5px] pt-5"
               />
-              <p class="">Titel</p>
+              <p class="">Solens magt</p>
               <p class="pb-1 text-small font-semibold text-grey-dark">
-                Forfatter
+                Henriette Hesselholdt
               </p>
-              <p class="text-green">00,00 DKK</p>
+              <p class="text-green">199,95 DKK</p>
               <div class="absolute -bottom-4 left-12 flex gap-1">
                 <img src="img/bog-tag.svg" alt="" />
                 <img src="img/lydbog-tag.svg" alt="" />
@@ -195,11 +212,11 @@
                 alt=""
                 class="mx-auto w-[7.5rem] pb-[5px] pt-5"
               />
-              <p class="">Titel</p>
+              <p class="">Sygdomsangst</p>
               <p class="pb-1 text-small font-semibold text-grey-dark">
-                Forfatter
+                Christina Bonde
               </p>
-              <p class="text-green">00,00 DKK</p>
+              <p class="text-green">199,95 DKK</p>
               <div class="absolute -bottom-4 left-12 flex gap-1">
                 <img src="img/bog-tag.svg" alt="" />
                 <img src="img/lydbog-tag.svg" alt="" />

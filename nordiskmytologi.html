@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>TELLERUP</title>
+    <script type="module" crossorigin src="./assets/main.b42263d4.js"></script>
+    <link rel="stylesheet" href="./assets/main.db3ba023.css">
+  </head>
+  <body class="bg-white font-body text-black">
+    <!-- Header desktop -->
+    <section
+      class="hidden h-[1.875rem] w-screen bg-orange-brand text-white md:grid"
+    >
+      <div class="mx-[4.375rem] flex justify-between gap-3">
+        <article class="w-52"></article>
+        <article class="flex w-fit items-center gap-3">
+          <img src="img/stjerner-header.svg" alt="" class="" />
+          <p class="">Trustpilot</p>
+        </article>
+        <article class="flex w-fit items-center gap-3">
+          <img src="img/levering-header.svg" alt="" class="" />
+          <p class="">Levering: 1-2 hverdage</p>
+        </article>
+      </div>
+    </section>
+    <header
+      class="sticky -top-1 z-50 hidden h-20 w-screen bg-white font-medium md:grid"
+    >
+      <nav class="mx-[4.375rem] flex items-center justify-between">
+        <section class="mr-[8.125rem] flex basis-1/4 items-center gap-3">
+          <a href="index.html" class="font-heading text-h2">TELLERUP</a>
+          <p class="hidden min-w-[9.375rem] text-small text-grey-dark md:block">
+            Børne- og ungdomsbøger<br />Siden 1972
+          </p>
+        </section>
+        <section class="flex basis-3/4 items-center justify-between gap-10">
+          <input
+            class="w-[30rem] rounded-full border-2 border-orange-brand font-normal"
+            type="text"
+            placeholder="Søg"
+          />
+          <!-- <a href="" class="text-h5 font-normal">Bøger</a> -->
+          <section class="flex items-center gap-6">
+            <a href="" class="">
+              <img src="img/profil.svg" alt="" class="" />
+            </a>
+            <a href="" class="">
+              <img src="img/kurv.svg" alt="" class="" />
+            </a>
+          </section>
+        </section>
+      </nav>
+    </header>
+
+    <!-- Header mobile -->
+    <section class="grid bg-orange-brand py-2 text-tiny md:hidden">
+      <div class="mx-4 flex place-content-center justify-between">
+        <article class="flex items-center gap-2 text-white">
+          <img src="img/stjerner-header.svg" alt="" class="h-3" />
+          <p class="">Trustpilot</p>
+        </article>
+        <article class="flex items-center gap-2 text-white">
+          <img src="img/levering-header.svg" alt="" class="h-3" />
+          <p class="">Levering: 1-2 hverdage</p>
+        </article>
+      </div>
+    </section>
+    <header class="mb-6 bg-white md:hidden">
+      <nav class="mx-4 flex place-items-center justify-between py-3">
+        <a href="index.html" class="font-heading text-h3">TELLERUP</a>
+        <img src="img/menu.svg" alt="" class="h-6" />
+      </nav>
+    </header>
+
+    <main class="mx-4 md:mx-[4.375rem]">
+      <!-- aside navbar desktop -->
+      <section class="md:flex md:gap-[8.125rem]">
+        <aside
+          class="sticky top-[8.375rem] hidden h-fit min-w-[19.375rem] basis-1/4 flex-col gap-10 rounded-[10px] bg-grey-light px-5 py-5 md:flex"
+        >
+          <button class="flex gap-3 text-left">
+            <img src="img/nyheder-orange.svg" alt="" class="" />
+            <p class="font-medium">Nyheder</p>
+          </button>
+          <section class="">
+            <button class="flex w-full justify-between">
+              <div class="flex gap-3 text-left">
+                <img src="img/trin-orange.svg" alt="" class="" />
+                <p class="font-medium">Klassetrin</p>
+              </div>
+              <img src="img/collapse-ned.svg" alt="" class="" />
+            </button>
+            <ol class="ml-14 mt-3 hidden text-grey-dark">
+              <li class="mb-1.5 flex justify-between">
+                <p class="">10. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">9. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">8. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">7. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">6. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">5. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">4. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">3. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">2. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="mb-1.5 flex justify-between">
+                <p class="">1. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+              <li class="flex justify-between">
+                <p class="">0. klasse</p>
+                <img src="img/cirkel-tom.svg" alt="" class="" />
+              </li>
+            </ol>
+          </section>
+
+          <section class="">
+            <button class="flex w-full justify-between">
+              <div class="flex gap-3 text-left">
+                <img src="img/kategori-orange.svg" alt="" class="" />
+                <p class="font-medium">Kategorier</p>
+              </div>
+              <img src="img/collapse-op.svg" alt="" class="" />
+            </button>
+            <ul class="ml-14 mt-3 text-grey-dark">
+              <li class="mb-1.5 hover:text-black">
+                <a href="yarealisme.html">YA realisme</a>
+              </li>
+              <li class="mb-1.5 hover:text-black">
+                <a href="fantasy.html">Fantasy</a>
+              </li>
+              <li class="mb-1.5 text-black hover:text-black">
+                <a href="nordiskmytologi.html">Nordisk mytologi</a>
+              </li>
+              <li class="hover:text-black">
+                <a href="kaerlighed.html">Kærlighed</a>
+              </li>
+            </ul>
+          </section>
+
+          <button class="flex gap-3 text-left">
+            <img src="img/blyant-orange.svg" alt="" class="" />
+            <p class="font-medium">Undervisningsmaterialer</p>
+          </button>
+        </aside>
+
+        <!-- aside navbar mobile -->
+        <aside class="flex justify-center gap-5 md:hidden">
+          <button
+            class="max-w-[10rem] basis-1/2 rounded-full border hover:bg-grey-dark"
+          >
+            <div class="my-[0.313rem] flex w-full place-content-center gap-3">
+              <img src="img/filter.svg" alt="" class="" />
+              <p class="">Filtrer</p>
+            </div>
+          </button>
+          <button class="max-w-[10rem] basis-1/2 rounded-full border">
+            <div class="my-[0.313rem] flex w-full place-content-center gap-3">
+              <img src="img/anbefalet.svg" alt="" class="" />
+              <p class="">Anbefalet</p>
+            </div>
+          </button>
+        </aside>
+
+        <!-- Cards -->
+        <section class="mt-6 basis-3/4">
+          <h1
+            class="text-center font-heading text-h2 text-black md:text-left md:text-h1"
+          >
+            Nordisk mytologi
+          </h1>
+          <section
+            class="flex justify-center text-body text-grey-dark md:justify-start"
+          >
+            <a href="index.html" class="hover:text-black">Tellerup</a>
+            <p>&nbsp/&nbsp</p>
+            <a href="bøger.html" class="hover:text-black">Bøger</a>
+            <p>&nbsp/&nbsp</p>
+            <a href="nordiskmytologi.html" class="hover:text-black"
+              >Nordisk mytologi</a
+            >
+          </section>
+          <section
+            class="mt-10 flex flex-wrap justify-between gap-y-3 text-small md:gap-y-16 md:text-body"
+          >
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog1.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-yellow px-3 text-small font-semibold text-white md:-top-3 md:left-16 md:mx-auto md:text-body"
+                >
+                  Nyhed!
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Forskeren</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  J.R Ward
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog2.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-yellow px-3 text-small font-semibold text-white md:-top-3 md:left-16 md:mx-auto md:text-body"
+                >
+                  Nyhed!
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Solens magt</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  Henriette Hesselholdt
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog3.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-black px-3 text-small font-semibold text-white md:-top-3 md:left-[3.2rem] md:mx-auto md:text-body"
+                >
+                  Bestseller
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Sygdomsangst</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  Christina Bonde
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog1.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-yellow px-3 text-small font-semibold text-white md:-top-3 md:left-16 md:mx-auto md:text-body"
+                >
+                  Nyhed!
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Forskeren</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  J.R Ward
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog2.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-yellow px-3 text-small font-semibold text-white md:-top-3 md:left-16 md:mx-auto md:text-body"
+                >
+                  Nyhed!
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Solens magt</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  Henriette Hesselholdt
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog3.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-black px-3 text-small font-semibold text-white md:-top-3 md:left-[3.2rem] md:mx-auto md:text-body"
+                >
+                  Bestseller
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Sygdomsangst</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  Christina Bonde
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog1.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-yellow px-3 text-small font-semibold text-white md:-top-3 md:left-16 md:mx-auto md:text-body"
+                >
+                  Nyhed!
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Forskeren</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  J.R Ward
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog2.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-yellow px-3 text-small font-semibold text-white md:-top-3 md:left-16 md:mx-auto md:text-body"
+                >
+                  Nyhed!
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Solens magt</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  Henriette Hesselholdt
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+            <article
+              class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
+            >
+              <a href="bog3.html">
+                <div
+                  class="absolute top-2 left-[5.5rem] h-fit w-fit rounded-full bg-black px-3 text-small font-semibold text-white md:-top-3 md:left-[3.2rem] md:mx-auto md:text-body"
+                >
+                  Bestseller
+                </div>
+                <img
+                  src="img/bog.webp"
+                  alt=""
+                  class="mx-auto w-[4.813rem] pb-[5px] pt-4 md:w-[7.5rem] md:pt-5"
+                />
+                <p class="font-semibold">Sygdomsangst</p>
+                <p
+                  class="pb-1 text-tiny font-semibold text-grey-dark md:text-small"
+                >
+                  Christina Bonde
+                </p>
+                <p class="font-bold text-green">199,95 DKK</p>
+                <div
+                  class="absolute bottom-16 left-4 flex h-[4.375rem] w-5 flex-col gap-1 md:-bottom-4 md:left-12 md:h-[1.938rem] md:w-[6.375rem] md:flex-row"
+                >
+                  <img src="img/bog-tag.svg" alt="" />
+                  <img src="img/lydbog-tag.svg" alt="" />
+                  <img src="img/ebog-tag.svg" alt="" />
+                </div>
+              </a>
+            </article>
+          </section>
+        </section>
+      </section>
+
+      
+    </main>
+    <footer
+      class="mt-12 grid h-[110vh] w-screen content-center bg-grey-dark text-white lg:h-[50vh]"
+    >
+      <section
+        class="mx-4 flex flex-col justify-evenly gap-5 text-body md:mx-[4.375rem] md:flex-row"
+      >
+        <section>
+          <p class="font-bold">Tellerup A/S</p>
+          <p>Absalonsgade 6B, 1. sal</p>
+          <p>4180 Sorø</p>
+          <p class="pb-10">CVR: 13698309</p>
+          <p>Kundeservice@tellerup.dk</p>
+          <p class="pb-10">+45 50 59 63 53</p>
+        </section>
+        <section class="">
+          <p class="text-body font-medium md:mb-3">Information</p>
+          <ul>
+            <li><a href="">Om Tellerup</a></li>
+            <li><a href="">Affiliate</a></li>
+            <li><a href="">Job</a></li>
+            <li><a href="">Handelsbetingelser</a></li>
+            <li><a href="">Persondatapolitik</a></li>
+            <li><a href="">Cookiepolitik</a></li>
+          </ul>
+        </section>
+        <section class="">
+          <p class="text-body font-medium md:mb-3">Kundeservice</p>
+          <ul>
+            <li><a href="">Hjælpecenter</a></li>
+            <li><a href="">Følg din ordre</a></li>
+            <li><a href="">Returnering</a></li>
+            <li><a href="">Kontakt</a></li>
+          </ul>
+        </section>
+        <section class="">
+          <p class="text-body font-medium md:mb-3">Oversigt</p>
+          <ul>
+            <li><a href="">Forside</a></li>
+            <li><a href="">Min side</a></li>
+            <li><a href="">Indkøbskurv</a></li>
+            <li><a href="">Nyheder</a></li>
+            <li><a href="">Kategorier</a></li>
+            <li><a href="">Undervisningsmaterialer</a></li>
+          </ul>
+        </section>
+        <section class="">
+          <p class="mb-3 text-body font-medium">Sociale medier</p>
+          <section class="flex h-full flex-row gap-3">
+            <ul>
+              <li>
+                <a href="" class="">
+                  <img src="img/facebook.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="" class="">
+                  <img src="img/instagram.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+    </footer>
+  </body>
+</html>

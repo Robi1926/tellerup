@@ -59,13 +59,13 @@
     </header>
 
     <!-- Header mobile -->
-    <section class="bg-orange-brand py-2 text-tiny md:hidden grid">
+    <section class="grid bg-orange-brand py-2 text-tiny md:hidden">
       <div class="mx-4 flex place-content-center justify-between">
-        <article class="flex gap-2 text-white items-center">
+        <article class="flex items-center gap-2 text-white">
           <img src="img/stjerner-header.svg" alt="" class="h-3" />
           <p class="">Trustpilot</p>
         </article>
-        <article class="flex gap-2 text-white items-center">
+        <article class="flex items-center gap-2 text-white">
           <img src="img/levering-header.svg" alt="" class="h-3" />
           <p class="">Levering: 1-2 hverdage</p>
         </article>
@@ -156,11 +156,15 @@
               <li class="mb-1.5 hover:text-black">
                 <a href="yarealisme.html">YA realisme</a>
               </li>
-              <li class="mb-1.5 hover:text-black text-black"><a href="fantasy.html">Fantasy</a></li>
+              <li class="mb-1.5 text-black hover:text-black">
+                <a href="fantasy.html">Fantasy</a>
+              </li>
               <li class="mb-1.5 hover:text-black">
                 <a href="nordiskmytologi.html">Nordisk mytologi</a>
               </li>
-              <li class="hover:text-black"><a href="kaerlighed.html">Kærlighed</a></li>
+              <li class="hover:text-black">
+                <a href="kaerlighed.html">Kærlighed</a>
+              </li>
             </ul>
           </section>
 
@@ -204,7 +208,9 @@
             <p>&nbsp/&nbsp</p>
             <a href="fantasy.html" class="hover:text-black">Fantasy</a>
           </section>
-          <section class="mt-10 flex flex-wrap justify-between md:gap-y-16 gap-y-3 md:text-body text-small">
+          <section
+            class="mt-10 flex flex-wrap justify-between gap-y-3 text-small md:gap-y-16 md:text-body"
+          >
             <article
               class="relative h-[12.5rem] w-[10.563rem] rounded-[10px] bg-orange-light text-center font-bold md:h-[18.75rem] md:w-[12.5rem]"
             >
@@ -482,29 +488,41 @@
       <script type="module" src="./main.js"></script>
     </main>
     <footer
-      class="mt-12 grid h-[50vh] w-screen content-center bg-grey-dark text-white"
+      class="mt-12 grid h-[110vh] w-screen content-center bg-grey-dark text-white lg:h-[50vh]"
     >
-      <section class="mx-4 md:mx-[4.375rem] flex flex-col md:flex-row justify-evenly md:text-body text-small gap-5">
+      <section
+        class="mx-4 flex flex-col justify-evenly gap-5 text-body md:mx-[4.375rem] md:flex-row"
+      >
+        <section>
+          <p class="font-bold">Tellerup A/S</p>
+          <p>Absalonsgade 6B, 1. sal</p>
+          <p>4180 Sorø</p>
+          <p class="pb-10">CVR: 13698309</p>
+          <p>Kundeservice@tellerup.dk</p>
+          <p class="pb-10">+45 50 59 63 53</p>
+        </section>
         <section class="">
-          <p class="md:mb-3 text-body font-medium">Information</p>
+          <p class="text-body font-medium md:mb-3">Information</p>
           <ul>
             <li><a href="">Om Tellerup</a></li>
             <li><a href="">Affiliate</a></li>
             <li><a href="">Job</a></li>
             <li><a href="">Handelsbetingelser</a></li>
             <li><a href="">Persondatapolitik</a></li>
+            <li><a href="">Cookiepolitik</a></li>
           </ul>
         </section>
         <section class="">
-          <p class="md:mb-3 text-body font-medium">Kundeservice</p>
+          <p class="text-body font-medium md:mb-3">Kundeservice</p>
           <ul>
             <li><a href="">Hjælpecenter</a></li>
             <li><a href="">Følg din ordre</a></li>
             <li><a href="">Returnering</a></li>
+            <li><a href="">Kontakt</a></li>
           </ul>
         </section>
         <section class="">
-          <p class="md:mb-3 text-body font-medium">Oversigt</p>
+          <p class="text-body font-medium md:mb-3">Oversigt</p>
           <ul>
             <li><a href="">Forside</a></li>
             <li><a href="">Min side</a></li>
@@ -514,51 +532,25 @@
             <li><a href="">Undervisningsmaterialer</a></li>
           </ul>
         </section>
-        <!-- <section class="">
-          <p class="mb-3 text-h5 font-medium">Sociale medier</p>
-          <section class="h-full flex flex-col justify-between">
+        <section class="">
+          <p class="mb-3 text-body font-medium">Sociale medier</p>
+          <section class="flex h-full flex-row gap-3">
             <ul>
               <li>
-                <a href="" class="flex justify-between">
-                  <p class="">FaceBook</p>
+                <a href="" class="">
                   <img src="img/facebook.svg" alt="" />
                 </a>
               </li>
             </ul>
             <ul>
               <li>
-                <a href="" class="flex justify-between">
-                  <p class="">Instagram</p>
+                <a href="" class="">
                   <img src="img/instagram.svg" alt="" />
                 </a>
               </li>
             </ul>
-            <ul>
-              <li>
-                <a href="" class="flex justify-between">
-                  <p class="">YouTube</p>
-                  <img src="img/youtube.svg" alt="" />
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="" class="flex justify-between">
-                  <p class="">TikTok</p>
-                  <img src="img/tiktok.svg" alt="" />
-                </a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="" class="flex justify-between">
-                  <p class="">LinkedIn</p>
-                  <img src="img/linkedin.svg" alt="" />
-                </a>
-              </li>
-            </ul>
           </section>
-        </section> -->
+        </section>
       </section>
     </footer>
   </body>

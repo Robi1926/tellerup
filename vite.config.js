@@ -22,7 +22,6 @@ export default defineConfig({
         kaerlighed: resolve(__dirname, "src/kaerlighed.html"),
         nordiskmytologi: resolve(__dirname, "src/nordiskmytologi.html"),
         yarealisme: resolve(__dirname, "src/yarealisme.html"),
-        css: resolve(__dirname, "src/style.css"),
 
         // about: resolve(__dirname, "src/about.html"),
       },

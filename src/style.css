@@ -29,9 +29,9 @@ html {
 }
 
 #splash {
-  background-image: url(img/splash.png);
+  background-image: url(img/splash.webp);
   background-size: cover;
-  height: 60vh;
+  height: 65vh;
 }
 
 .animation:hover {

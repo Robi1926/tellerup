@@ -28,12 +28,6 @@ html {
   width: 100%;
 }
 
-#splash {
-  background-image: url(img/splash.webp);
-  background-size: cover;
-  height: 65vh;
-}
-
 .animation:hover {
   transform: scale(1.1);
   animation-duration: 0.2;
